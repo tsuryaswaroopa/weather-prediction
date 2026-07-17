@@ -41,43 +41,24 @@ A simple Machine Learning web application built using **Python, Flask, HTML, CSS
 
 ```
 weather-prediction/
-
-│── app.py
-
-│── weather_model.py
-
-│── weather_model.pkl
-
-│── weatherHistory.csv
-
-│── requirements.txt
-
-│── README.md
-
 │
-
+├── .gitignore
+├── README.md
+├── app.py
+├── weather_model.py
+├── weather_model.pkl
+├── weatherHistory.csv
+│
+├── static/
+│   ├── style.css 
+│
 ├── templates/
-
-│     ├── index.html
-
-│     └── result.html
-
+│   ├── index.html
+│   └── result.html
 │
-
-└── static/
-
-      ├── style.css
-
-      ├── weather.png
-
-      ├── sunny.png
-
-      ├── cloudy.png
-
-      ├── rainy.png
-
-      └── snow.png
-```
+└── imagess/
+    ├── output1.png
+    └── output2.png
 
 ---
 
@@ -119,10 +100,12 @@ http://127.0.0.1:5000
 
 ### Home Page
 
+![Home Page](images/output1.png)
 
 ### Prediction Result
 
-(Add screenshot here)
+![Prediction Result](images/output2.png)
+
 
 ---
 
