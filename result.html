@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+
+<title>Prediction Result</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<h1>🌦 Prediction Result</h1>
+
+<div class="result-box">
+
+<h2>{{ prediction }} °C</h2>
+
+<h3>{{ condition }}</h3>
+
+</div>
+
+<div class="details">
+
+<div class="detail-card">
+<i class="fa-solid fa-droplet"></i>
+<h4>Humidity</h4>
+<p>{{ humidity }}</p>
+</div>
+
+<div class="detail-card">
+<i class="fa-solid fa-gauge-high"></i>
+<h4>Pressure</h4>
+<p>{{ pressure }} mb</p>
+</div>
+
+<div class="detail-card">
+<i class="fa-solid fa-wind"></i>
+<h4>Wind Speed</h4>
+<p>{{ wind }} km/h</p>
+</div>
+
+</div>
+
+<div class="recommendation">
+
+<h3>💡 Recommendation</h3>
+
+<p>✔ Stay hydrated throughout the day.</p>
+
+<p>✔ Check weather conditions before travelling.</p>
+
+<p>✔ Carry an umbrella or sunglasses if needed.</p>
+
+</div>
+
+<a href="/" class="back-btn">
+🔄 Predict Again
+</a>
+<a href="/" class="btn">
+Predict Again
+</a>
+
+</div>
+
+</div>
+
+</body>
+</html>
