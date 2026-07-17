@@ -98,10 +98,12 @@ http://127.0.0.1:5000
 # Output
 
 ## Home Page
-![Home](images/output1.png)
+<img width="1920" height="1128" alt="output1" src="https://github.com/user-attachments/assets/e391257b-3f71-407f-bb30-bead5436da15" />
+
 
 ## Result Page
-![Result](images/output2.png)
+<img width="1920" height="1143" alt="output2" src="https://github.com/user-attachments/assets/1ed423c7-7089-47fd-bb38-730346f7fd1f" />
+
 
 
 ## 🎯 Future Improvements
