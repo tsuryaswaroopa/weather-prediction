@@ -56,11 +56,10 @@ weather-prediction/
 │   ├── index.html
 │   └── result.html
 │
-└── imagess/
+└── images/
     ├── output1.png
     └── output2.png
 
----
 
 ## 🚀 Installation
 
@@ -96,18 +95,14 @@ http://127.0.0.1:5000
 
 ---
 
-<h2 align="center">🏠 Home Page</h2>
+# Output
 
-<p align="center">
-  <img src="screenshots/home.png" width="900">
-</p>
+## Home Page
+![Home](images/output1.png)
 
-<h2 align="center">🌤 Prediction Result</h2>
+## Result Page
+![Result](images/output2.png)
 
-<p align="center">
-  <img src="screenshots/result.png" width="900">
-</p>
----
 
 ## 🎯 Future Improvements
 
